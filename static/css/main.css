@@ -128,6 +128,9 @@ a {
 .div1:hover, .tag1:hover {
 	box-shadow: 8px 8px 15px 8px rgba(0, 0, 0, 0.2);
 }
+.spn {
+	display: inline-block;
+}
 .elmt-main {
 	position: absolute;
 	top: 72px;
