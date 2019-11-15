@@ -52,8 +52,8 @@ function backp() {
 function wblnk() {
 	var hbelmt = "";
 	hbelmt += "<header class=\"top\" style=\"height: 64px;\">";
-	hbelmt += "	<a><img style=\"width: 64px; height: 64px; vertical-align: middle;\" alt=\"\"";
-	hbelmt += "	src=\"\/static\/icon\/ooj.png\" href=\"\/\" \/><\/a>";
+	hbelmt += "	<a href=\"\/\"><img style=\"width: 64px; height: 64px; vertical-align: middle;\" alt=\"\"";
+	hbelmt += "	src=\"\/static\/icon\/ooj.png\" \/><\/a>";
 	hbelmt += "	<a class=\"changetext1\" style=\"cursor: default; vertical-align: middle; font-size: 40px;\" href=\"\/\">";
 	hbelmt += "		Osmium&nbsp;OJ";
 	hbelmt += "	<\/a>";
