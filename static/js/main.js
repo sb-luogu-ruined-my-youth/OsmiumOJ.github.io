@@ -52,11 +52,11 @@ function backp() {
 function wblnk() {
 	var hbelmt = "";
 	hbelmt += "<header class=\"top\" style=\"height: 64px;\">";
-	hbelmt += "	<img style=\"width: 64px; height: 64px; vertical-align: middle;\" alt=\"\"";
-	hbelmt += "	src=\"\/static\/icon\/ooj.png\" \/>";
-	hbelmt += "	<span class=\"changetext1\" style=\"cursor: default; vertical-align: middle; font-size: 40px;\">";
+	hbelmt += "	<a><img style=\"width: 64px; height: 64px; vertical-align: middle;\" alt=\"\"";
+	hbelmt += "	src=\"\/static\/icon\/ooj.png\" href=\"\/\" \/><\/a>";
+	hbelmt += "	<a class=\"changetext1\" style=\"cursor: default; vertical-align: middle; font-size: 40px;\" href=\"\/\">";
 	hbelmt += "		Osmium&nbsp;OJ";
-	hbelmt += "	<\/span>";
+	hbelmt += "	<\/a>";
 	hbelmt += "	<a href=\"\/u\/register\">";
 	hbelmt += "		<button class=\"round fill2\" style=\"width: 50px; height: 50px; vertical-align: middle; font-size: 16px;\">";
 	hbelmt += "			注册";
