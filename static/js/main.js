@@ -8,7 +8,7 @@ function openwss(url) {
 $(function() {
 	if(UA() == "pcduan")wblnk();
 	else {
-		$("body").empty();
+		// $("body").empty();
 		alert('OOJ不支持移动设备。', '哦，天哪', '好吧', "backp()");
 	}
 	$("*").children("#dayer").hide();
