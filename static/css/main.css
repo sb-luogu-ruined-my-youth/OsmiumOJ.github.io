@@ -210,3 +210,44 @@ a {
 	font-size: 25px;
 	margin: 4px 3px;
 }
+.artic h1 {
+	font-size: 30px;
+	color: #2e8b57;
+	text-shadow:0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb;
+}
+.artic h2 {
+	font-size: 28px;
+	color: #2e8b57;
+	text-shadow:0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb;
+}
+.artic h3 {
+	font-size: 25px;
+	color: #2e8b57;
+	text-shadow:0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb;
+}
+.artic h4 {
+	font-size: 22px;
+	color: #2e8b57;
+	text-shadow:0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb;
+}
+.artic h5 {
+	font-size: 20px;
+	color: #2e8b57;
+	text-shadow:0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb;
+}
+.artic h6 {
+	font-size: 18px;
+	color: #2e8b57;
+	text-shadow:0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb;
+}
+.artic a {
+	font-weight: 500;
+}
+.artic a:link, .artic a:visited {
+	color: #3cb371;
+	text-shadow: 0px 0px 7px #888899, 0px 0px 14px #888899, 0px 0px 21px #888899;
+}
+.artic a:hover, .artic a:active {
+	color: #20b2aa;
+	text-shadow:0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb;
+}
