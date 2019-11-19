@@ -125,6 +125,7 @@ a {
 	border-radius: 15px;
 	box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.25);
 	padding: 8px;
+	display: inline-block;
 	margin: 8px;
 }
 .div1:hover, .tag1:hover {
