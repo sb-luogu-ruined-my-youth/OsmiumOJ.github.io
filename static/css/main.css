@@ -112,13 +112,13 @@ a {
 	cursor: pointer;
 	height: 25px;
 	line-height: 25px;
-	font-size: 18px;
 	vertical-align: middle;
 	transition-duration: 0.4s;
 	border-radius: 15px;
 	box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.25);
 }
 .tag1 {
+	font-size: 18px;
 	background-color: #ffeeff;
 }
 .tag2 {
@@ -133,7 +133,7 @@ a {
 	display: inline-block;
 	margin: 8px;
 }
-.div1:hover, .tag1:hover {
+.div1:hover, .tag1:hover, .tag2:hover {
 	box-shadow: 8px 8px 15px 8px rgba(0, 0, 0, 0.2);
 }
 .div-cont {
