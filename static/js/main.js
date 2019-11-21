@@ -9,6 +9,7 @@ $(function() {
 	if(UA() == "pcduan")wblnk();
 	else {
 		// $("body").empty();
+		wblnk();
 		alert('OOJ不支持移动设备。', '哦，天哪', '好吧');
 	}
 	$("*").children("#dayer").hide();
@@ -194,7 +195,7 @@ function wblnk() {
 	hbelmt += "			<\/span>";
 	hbelmt += "		<\/li>";
 	hbelmt += "	<\/a>";
-	hbelmt += "	<a href=\"\/about\">";
+	hbelmt += "	<a href=\"\/dat\/doc\/1\">";
 	hbelmt += "		<li>";
 	hbelmt += "			<span id=\"dayer\">";
 	hbelmt += "				关于OOJ";
