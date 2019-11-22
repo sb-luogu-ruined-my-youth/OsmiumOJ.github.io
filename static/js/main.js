@@ -32,14 +32,6 @@ $(function() {
 			$(this).stop().animate({"marginLeft":"-90px"},50);
 		}
 	);
-	$("footer.botm").hover(
-		function() {
-			$(this).stop().animate({"marginBottom":"-12px"},50);
-		},
-		function() {
-			$(this).stop().animate({"marginBottom":"-62px"},50);
-		}
-	);
 });
 function UA() {
 	return /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ? "yidongduan" : "pcduan";
@@ -52,7 +44,7 @@ function backp() {
 }
 function wblnk() {
 	var hbelmt = "";
-	hbelmt += "<header class=\"top\" style=\"height: 64px;\">";
+	hbelmt += "<header class=\"top\">";
 	hbelmt += "	<a href=\"\/\"><img style=\"width: 64px; height: 64px; vertical-align: middle;\" alt=\"\"";
 	hbelmt += "	src=\"\/static\/icon\/ooj.png\" \/><\/a>";
 	hbelmt += "	<a class=\"changetext1\" style=\"cursor: default; vertical-align: middle; font-size: 40px;\" href=\"\/\">";
