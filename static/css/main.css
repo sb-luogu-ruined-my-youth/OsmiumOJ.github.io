@@ -12,7 +12,7 @@ header.top {
 	right: 0px;
 	height: 64px;
 	z-index: 32767;
-	background-color: rgba(225, 225, 245, 0.45);
+	background-color: rgba(225, 225, 245, 0.75);
 	transition-duration: 0.4s;
 	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.24), 0 3px 9px 0 rgba(0, 0, 0, 0.19);
 }
@@ -31,7 +31,7 @@ footer.botm {
 	z-index: 32767;
 	line-height: 76px;
 	vertical-align: middle;
-	background-color: rgba(225, 225, 245, 0.45);
+	background-color: rgba(225, 225, 245, 0.75);
 	transition-duration: 0.4s;
 	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.24), 0 3px 9px 0 rgba(0, 0, 0, 0.19);
 }
