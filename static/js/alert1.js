@@ -5,7 +5,7 @@ function alert1(elmt, cap, OKWrd, OKfunc, hasCancel, CancelWrd, txtAlgn) {
 	CancelWrd = CancelWrd ? CancelWrd : "取&ensp;消";
 	txtAlgn = txtAlgn ? txtAlgn : "center";
 	hasCancel = hasCancel ? hasCancel : false;
-	$("body").append("<div class=\"alert1Coverer\"><div class=\"alert1Container\"><span style=\"font-size: 25px; color: #8787b4; text-shadow: 0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb; text-weight: 600; margin-bottom: 7px;\">" + cap + "<\/span><div class=\"alert1\">" + elmt + "<\/div><button class=\"alert1Button\"id=\"alert1OK\">" + OKWrd + "<\/button>" + (hasCancel ? "<button class=\"alert1Button\"id=\"alert1Cancel\">" + CancelWrd + "<\/button><\/div>" : "<\/div><\/div>"));
+	$("body").append("<div class=\"alert1Coverer\"><style>.alert1 h1{font-size:30px;color:#483d8b;text-shadow:0px 0px 10px #aaaabb,0px 0px 20px #aaaabb,0px 0px 30px #aaaabb}.alert1 h2{font-size:24px;color:#483d8b;text-shadow:0px 0px 10px #aaaabb,0px 0px 20px #aaaabb,0px 0px 30px #aaaabb}.alert1 h3{font-size:21px;color:#483d8b;text-shadow:0px 0px 10px #aaaabb,0px 0px 20px #aaaabb,0px 0px 30px #aaaabb}.alert1 h4{font-size:19px;color:#483d8b;text-shadow:0px 0px 10px #aaaabb,0px 0px 20px #aaaabb,0px 0px 30px #aaaabb}.alert1 h5{font-size:18px;color:#483d8b;text-shadow:0px 0px 10px #aaaabb,0px 0px 20px #aaaabb,0px 0px 30px #aaaabb}.alert1 h6{font-size:17px;color:#483d8b;text-shadow:0px 0px 10px #aaaabb,0px 0px 20px #aaaabb,0px 0px 30px #aaaabb}.alert1 a{font-weight:600;transition-duration:0.4s}.alert1 a:link,.alert1 a:visited{color:#6a5acd;text-shadow:0px 0px 7px #888899,0px 0px 14px #888899,0px 0px 21px #888899}.alert1 a:hover,.alert1 a:active{color:#7b68ee;text-shadow:0px 0px 10px #aaaabb,0px 0px 20px #aaaabb,0px 0px 30px #aaaabb}.alert1 hr{border:1px solid rgba(0,0,0,0.2)}<\/style><div class=\"alert1Container\"><span style=\"font-size: 25px; color: #8787b4; text-shadow: 0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb; text-weight: 600; margin-bottom: 7px;\">" + cap + "<\/span><div class=\"alert1\">" + elmt + "<\/div><button class=\"alert1Button\"id=\"alert1OK\">" + OKWrd + "<\/button>" + (hasCancel ? "<button class=\"alert1Button\"id=\"alert1Cancel\">" + CancelWrd + "<\/button><\/div>" : "<\/div><\/div>"));
 	$(".alert1Container").css({
 		backgroundColor: "rgba(255, 255, 255, 0.85)",
 		padding: "20px",
@@ -45,55 +45,6 @@ function alert1(elmt, cap, OKWrd, OKfunc, hasCancel, CancelWrd, txtAlgn) {
 		borderRadius: "7px",
 		boxShadow: "0 3px 4px 0 rgba(0, 0, 0, 0.24), 0 3px 9px 0 rgba(0, 0, 0, 0.19)"
     });
-	$(".alert1 h1").css({
-		fontSize: "30px",
-		color: "#483d8b",
-		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
-	});
-	$(".alert1 h2").css({
-		fontSize: "24px",
-		color: "#483d8b",
-		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
-	});
-	$(".alert1 h3").css({
-		fontSize: "21px",
-		color: "#483d8b",
-		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
-	});
-	$(".alert1 h4").css({
-		fontSize: "19px",
-		color: "#483d8b",
-		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
-	});
-	$(".alert1 h5").css({
-		fontSize: "18px",
-		color: "#483d8b",
-		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
-	});
-	$(".alert1 h6").css({
-		fontSize: "17px",
-		color: "#483d8b",
-		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
-	});
-	$(".alert1 a:link").css({
-		color: "#6a5acd",
-		textShadow: "0px 0px 7px #888899, 0px 0px 14px #888899, 0px 0px 21px #888899"
-	});
-	$(".alert1 a:visited").css({
-		color: "#6a5acd",
-		textShadow: "0px 0px 7px #888899, 0px 0px 14px #888899, 0px 0px 21px #888899"
-	});
-	$(".alert1 a:hover").css({
-		color: "#7b68ee",
-		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
-	});
-	$(".alert1 a:active").css({
-		color: "#7b68ee",
-		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
-	});
-	$(".alert1 hr").css({
-		border: "1px solid rgba(0, 0, 0, 0.2)"
-	});
 	$(".alert1Button").css({
 		fontWeight: "400",
 		outline: "medium",
