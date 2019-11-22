@@ -10,7 +10,6 @@ header.top {
 	top: 0px;
 	left: 0px;
 	right: 0px;
-	bottom: 0px;
 	height: 64px;
 	z-index: 32767;
 	background-color: rgba(225, 225, 245, 0.45);
@@ -25,7 +24,6 @@ footer.botm {
 	position: fixed;
 	text-align: center;
 	width: 100%;
-	top: 0px;
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
@@ -148,7 +146,6 @@ a {
 .elmt-main {
 	position: absolute;
 	top: 72px;
-	bottom: 84px;
 	width: 864px;
 	left: calc(50% - 432px);
 }
