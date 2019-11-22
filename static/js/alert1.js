@@ -50,36 +50,44 @@ function alert1(elmt, cap, OKWrd, OKfunc, hasCancel, CancelWrd, txtAlgn) {
 		color: "#483d8b",
 		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
 	});
-	$(".alert1 h1").css({
+	$(".alert1 h2").css({
 		fontSize: "24px",
 		color: "#483d8b",
 		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
 	});
-	$(".alert1 h1").css({
+	$(".alert1 h3").css({
 		fontSize: "21px",
 		color: "#483d8b",
 		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
 	});
-	$(".alert1 h1").css({
+	$(".alert1 h4").css({
 		fontSize: "19px",
 		color: "#483d8b",
 		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
 	});
-	$(".alert1 h1").css({
+	$(".alert1 h5").css({
 		fontSize: "18px",
 		color: "#483d8b",
 		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
 	});
-	$(".alert1 h1").css({
+	$(".alert1 h6").css({
 		fontSize: "17px",
 		color: "#483d8b",
 		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
 	});
-	$(".alert1 a:link, .alert1 a:visited").css({
+	$(".alert1 a:link").css({
 		color: "#6a5acd",
 		textShadow: "0px 0px 7px #888899, 0px 0px 14px #888899, 0px 0px 21px #888899"
 	});
-	$(".alert1 a:hover, .alert1 a:active").css({
+	$(".alert1 a:visited").css({
+		color: "#6a5acd",
+		textShadow: "0px 0px 7px #888899, 0px 0px 14px #888899, 0px 0px 21px #888899"
+	});
+	$(".alert1 a:hover").css({
+		color: "#7b68ee",
+		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
+	});
+	$(".alert1 a:active").css({
 		color: "#7b68ee",
 		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
 	});
