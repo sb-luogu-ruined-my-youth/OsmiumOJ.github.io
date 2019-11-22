@@ -41,7 +41,7 @@ function alert1(elmt, cap, OKWrd, OKfunc, hasCancel, CancelWrd, txtAlgn) {
 	$(".alert1").css({
 		border: "2px solid #777765",
 		textAlign: txtAlgn,
-		textOverflow: "ellipsis";
+		textOverflow: "ellipsis",
 		borderRadius: "7px",
 		boxShadow: "0 3px 4px 0 rgba(0, 0, 0, 0.24), 0 3px 9px 0 rgba(0, 0, 0, 0.19)"
     });
