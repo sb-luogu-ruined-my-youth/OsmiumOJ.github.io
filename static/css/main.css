@@ -134,8 +134,14 @@ a {
 	display: inline-block;
 	margin: 8px;
 }
-.div1:hover, .tag1:hover, .tag2:hover {
+.div1:hover, .div2:hover, .tag1:hover, .tag2:hover {
 	box-shadow: 8px 8px 15px 8px rgba(0, 0, 0, 0.2);
+}
+.div2 {
+	border: 2px solid #777765;
+	background: rgba(235, 235, 235, 0.2);
+	border-radius: 7px;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.24), 0 3px 9px 0 rgba(0, 0, 0, 0.19);
 }
 .div-cont {
 	vertical-align: top;

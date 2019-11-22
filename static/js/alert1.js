@@ -40,6 +40,7 @@ function alert1(elmt, cap, OKWrd, OKfunc, hasCancel, CancelWrd, txtAlgn) {
     });
 	$(".alert1").css({
 		border: "2px solid #777765",
+		background: "rgba(235, 235, 235, 0.2)",
 		textAlign: txtAlgn,
 		textOverflow: "ellipsis",
 		borderRadius: "7px",
