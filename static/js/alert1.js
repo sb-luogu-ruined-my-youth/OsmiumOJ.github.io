@@ -1,4 +1,5 @@
 function alert1(elmt, cap, OKWrd, OKfunc, hasCancel, CancelWrd, txtAlgn) {
+	$(".alert1Coverer").remove();
 	cap = cap ? cap : "提&ensp;示";
 	OKWrd = OKWrd ? OKWrd : "确&ensp;定";
 	CancelWrd = CancelWrd ? CancelWrd : "取&ensp;消";
@@ -40,9 +41,51 @@ function alert1(elmt, cap, OKWrd, OKfunc, hasCancel, CancelWrd, txtAlgn) {
 	$(".alert1").css({
 		border: "2px solid #777765",
 		textAlign: txtAlgn,
+		textOverflow: "ellipsis";
 		borderRadius: "7px",
 		boxShadow: "0 3px 4px 0 rgba(0, 0, 0, 0.24), 0 3px 9px 0 rgba(0, 0, 0, 0.19)"
     });
+	$(".alert1 h1").css({
+		fontSize: "30px",
+		color: "#483d8b",
+		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
+	});
+	$(".alert1 h1").css({
+		fontSize: "24px",
+		color: "#483d8b",
+		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
+	});
+	$(".alert1 h1").css({
+		fontSize: "21px",
+		color: "#483d8b",
+		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
+	});
+	$(".alert1 h1").css({
+		fontSize: "19px",
+		color: "#483d8b",
+		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
+	});
+	$(".alert1 h1").css({
+		fontSize: "18px",
+		color: "#483d8b",
+		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
+	});
+	$(".alert1 h1").css({
+		fontSize: "17px",
+		color: "#483d8b",
+		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
+	});
+	$(".alert1 a:link, .alert1 a:visited").css({
+		color: "#6a5acd",
+		textShadow: "0px 0px 7px #888899, 0px 0px 14px #888899, 0px 0px 21px #888899"
+	});
+	$(".alert1 a:hover, .alert1 a:active").css({
+		color: "#7b68ee",
+		textShadow: "0px 0px 10px #aaaabb, 0px 0px 20px #aaaabb, 0px 0px 30px #aaaabb"
+	});
+	$(".alert1 hr").css({
+		border: "1px solid rgba(0, 0, 0, 0.2)"
+	});
 	$(".alert1Button").css({
 		fontWeight: "400",
 		outline: "medium",
@@ -79,14 +122,12 @@ function alert1(elmt, cap, OKWrd, OKfunc, hasCancel, CancelWrd, txtAlgn) {
 	);
 	$("#alert1OK").click(
 		function() {
-			$(".alert1Container").remove();
 			$(".alert1Coverer").remove();
 			eval(OKfunc);
 		}
 	);
 	$("#alert1Cancel").click(
 		function() {
-			$(".alert1Container").remove();
 			$(".alert1Coverer").remove();
 		}
 	);
