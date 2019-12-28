@@ -193,7 +193,7 @@ function wblnk() {
     hbelmt += "			<\/span>";
     hbelmt += "		<\/li>";
     hbelmt += "	<\/a>";
-    hbelmt += "	<a href=\"\\/doc\/1\">";
+    hbelmt += "	<a href=\"/doc\/1\">";
     hbelmt += "		<li>";
     hbelmt += "			<span id=\"dayer\">";
     hbelmt += "				关于OOJ";
