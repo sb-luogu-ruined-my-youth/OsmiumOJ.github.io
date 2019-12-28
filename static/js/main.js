@@ -220,7 +220,7 @@ function wblnk() {
     hbelmt += "<\/ul>";
     hbelmt += "<footer class=\"botm\" style=\"line-height: 0.7vw;\">";
     hbelmt += "	<span style=\"vertical-align: middle; height: 64px; line-height: 64px;\">";
-    hbelmt += "		<img alt=\"【狗比OOJ..】\" src=\"\/static\/icon\/OOJqrCode.png\" style=\"vertical-align: middle; width: 48px; height: 48px; margin-right: 10px;\"";
+    hbelmt += "		<img alt=\"【OOJ..】\" src=\"\/static\/icon\/OOJqrCode.png\" style=\"vertical-align: middle; width: 48px; height: 48px; margin-right: 10px;\"";
     hbelmt += "		\/>";
     hbelmt += "		2019&nbsp;-&nbsp;2019，OsmiumOJ&nbsp;&copy;&nbsp;Developed&nbsp;by&nbsp;the&nbsp;";
     hbelmt += "		<a class=\"a2\" href=\"https:\/\/github.com\/ooj-dev\">";
