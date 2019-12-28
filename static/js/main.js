@@ -56,12 +56,12 @@ function wblnk() {
     hbelmt += "	<a class=\"changetext1\" style=\"cursor: default; vertical-align: middle; font-size: 40px;\" href=\"\/\">";
     hbelmt += "		Osmium&nbsp;OJ";
     hbelmt += "	<\/a>";
-    hbelmt += "	<a href=\"\/u\/register\">";
+    hbelmt += "	<a href=\"\/user\/register\">";
     hbelmt += "		<button class=\"round fill2\" style=\"width: 50px; height: 50px; vertical-align: middle; font-size: 16px;\">";
     hbelmt += "			注册";
     hbelmt += "		<\/button>";
     hbelmt += "	<\/a>";
-    hbelmt += "	<a href=\"\/u\/login\">";
+    hbelmt += "	<a href=\"\/user\/login\">";
     hbelmt += "		<button class=\"round fill2\" style=\"width: 50px; height: 50px; vertical-align: middle; font-size: 16px;\">";
     hbelmt += "			登录";
     hbelmt += "		<\/button>";
