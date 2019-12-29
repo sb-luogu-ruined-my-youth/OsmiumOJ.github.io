@@ -21,7 +21,8 @@ header.top:hover, footer.botm:hover {
 	box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.24), 17px 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 footer.botm {
-	position: fixed;
+	/* position: fixed; */
+	position: absolute;
 	text-align: center;
 	width: 100%;
 	left: 0px;
@@ -148,6 +149,7 @@ a {
 	top: 72px;
 	width: 864px;
 	left: calc(50% - 432px);
+	padding-bottom: calc(64px + 20px); /* 64px是footer的height */
 }
 .centeria {
 	display: flex;
