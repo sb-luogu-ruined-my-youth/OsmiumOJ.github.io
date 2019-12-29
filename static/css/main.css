@@ -150,7 +150,7 @@ a {
 	top: 72px;
 	width: 864px;
 	left: calc(50% - 432px);
-	padding-bottom: 64px;
+	margin-bottom: 90px;
 }
 .centeria {
 	display: flex;
