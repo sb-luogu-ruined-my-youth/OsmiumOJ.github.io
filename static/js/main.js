@@ -218,8 +218,6 @@ function wblnk() {
     hbelmt += "		<\/li>";
     hbelmt += "	<\/a>";
     hbelmt += "<\/ul>";
-    hbelmt += "<div>";
-    hbelmt += "<div style=\"height: 64px;\"><\/div>"; // 占位的，防止footer遮挡内容
     hbelmt += "<footer class=\"botm\" style=\"line-height: 0.7vw;\">";
     hbelmt += "	<span style=\"vertical-align: middle; height: 64px; line-height: 64px;\">";
     hbelmt += "		<img alt=\"【OOJ..】\" src=\"\/static\/icon\/OOJqrCode.png\" style=\"vertical-align: middle; width: 48px; height: 48px; margin-right: 10px;\"";
@@ -231,6 +229,5 @@ function wblnk() {
     hbelmt += "		.";
     hbelmt += "	<\/span>";
     hbelmt += "<\/footer>";
-    hbelmt += "<\/div>";
     $("body").append(hbelmt);
 }
