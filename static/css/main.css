@@ -150,7 +150,7 @@ a {
 	top: 72px;
 	width: 864px;
 	left: calc(50% - 432px);
-	/* padding-bottom: calc(64px + 20px); 64px是footer的height */
+	padding-bottom: 64px;
 }
 .centeria {
 	display: flex;
