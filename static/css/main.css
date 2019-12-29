@@ -23,6 +23,7 @@ header.top:hover, footer.botm:hover {
 footer.botm {
 	/* position: fixed; */
 	position: absolute;
+	margin-top: -64px;
 	text-align: center;
 	width: 100%;
 	left: 0px;
